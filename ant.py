@@ -5,7 +5,7 @@ import requests
 import json
 
 city = "Daegu" #도시
-apiKey = "d4a7b6e3b0cfe65e5cb4bdc16dd3fee5"
+apiKey = "secure"
 lang = 'kr' #언어
 units = 'imperial' #화씨 온도를 섭씨 온도로 변경
 api = f"http://api.openweathermap.org/data/2.5/weather?q=Daegu&appid=secure&lang=en&units=metric"
